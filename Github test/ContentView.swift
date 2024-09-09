@@ -16,9 +16,9 @@ struct ContentView: View {
             Text("hi, world!")
             Spacer()
             Image(systemName: "square.and.arrow.up")
+            .imageScale(.large)
                 .foregroundColor(.blue)
-                .frame(width: 100, height: 100)
-            Spacer()
+        Spacer()
             Text("hi, world")
         }
         .padding()
